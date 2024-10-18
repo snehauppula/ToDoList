@@ -1,0 +1,146 @@
+body {
+    background-color: #99a8bb;
+    user-select: none;
+    margin: 100px;
+}
+
+/* To-Do List Container */
+#todolist {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eda28a;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 3px solid #3c345c;
+    box-shadow: 15px 11px 35px #20366e;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for the to-do list container */
+#todolist:hover {
+    transform: scale(1.02);
+    box-shadow: 20px 15px 45px #1a284e;
+}
+
+/* Heading Styling */
+#h1 {
+    color: #124c81;
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+/* Heading hover effect */
+#h1:hover {
+    color: #ffffff;
+}
+
+/* Delete Button */
+#delbutton {
+    background-color: #d6542c;
+    width: 40px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for delete button */
+#delbutton:hover {
+    background-color: #b33d1b;
+    transform: scale(1.1);
+}
+
+/* Up/Down Buttons */
+#up, #down {
+    background-color: #41f6ffa5;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for Up/Down buttons */
+#up:hover, #down:hover {
+    background-color: #34d6df;
+    transform: scale(1.1);
+}
+
+/* General Button Styling */
+button {
+    font-weight: bold;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+/* Add Button */
+#add {
+    background-color: #8abdff;
+    height: 60px;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Add button hover effect */
+#add:hover {
+    background-color: #6a9bd9;
+    transform: scale(1.05);
+}
+
+/* Input Field Styling */
+input[type="text"] {
+    padding: 15px 15px;
+    font-size: 1.6rem;
+    border: 3px solid hsla(0, 0%, 22%, 0.849);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0%, 0.5);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input field focus effect */
+input[type="text"]:focus {
+    border-color: #8abdff;
+    box-shadow: 0px 0px 10px #8abdff;
+    outline: none;
+}
+
+/* Ordered List and List Items */
+ol {
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 0%, 97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    color: #002fffb0;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for list items */
+li:hover {
+    background-color: hsl(0, 0%, 90%);
+    transform: translateX(1px);
+}
+
+/* Text inside list items */
+.text {
+    flex: 1;
+}
+
+/* Button hover effects */
+button:hover {
+    transform: translateY(-1px);
+    background-color: #559ed9;
+}
+
+/* Button active (pressed) effect */
+button:active {
+    transform: translateY(0);
+    background-color: #3e7ca6;
+}
