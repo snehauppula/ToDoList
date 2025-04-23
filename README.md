@@ -32,3 +32,10 @@ Helps users to add, manage, and delete daily tasks. Great for practicing React h
 git clone https://github.com/your-username/todolist.git
 cd todolist
 
+```
+### 2.Makes the changes
+
+### 3.Commit changes
+
+### 4.Pull request
+
